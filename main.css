@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width:100%;
+  /*margin-left: 80px;
+  margin-right:60px;*/
+  margin:auto;
+}
+@media (max-width:720px){
+  body{
+    margin:0px;
+    padding:0px;
+  }
+  .main-grid{
+    display:flex;
+    flex-direction:column;
+  }
+  .right-division{
+    margin-left:10px !important;
+    margin-right:10px !important;
+    width:fit-content !important;
+    display:flex;
+    align-items: center !important;
+    flex-direction:column;
+    flex-grow:inherit
+  }
+  .right-division p{
+    width:100%;
+    text-align: center;
+  }
+  .right-division .other-logos{
+    margin-left:-300px;
+  }
+  .left-division{
+    display: none;
+  }
+  .mobile-division{
+    display: flex !important;
+    /* width:100vw; */
+  }
+  .mobile-division img{
+    width: 100%;
+  }
+  .head-word{
+    width:100% !important;
+    text-align: center;
+    margin-top:0px;
+    font-size:smaller;
+  }
+  .other-logos{
+    margin: 0px 0px  
+  }
+}
+@media (max-width:386px) {
+   .head-word{
+    font-size: 30px;
+   }
+}
+
+.mobile-division{
+  display: none;
+}
+.right-division{
+  margin-top:70px;
+  margin-left:100px;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+}
+.head-word{
+  font-size:30px;
+  width:400px;
+  flex:1;
+}
+.right-division p{
+  /* font-size: px; */
+  margin-bottom:60px;
+  margin-top:30px;
+  line-height:1.5;
+  color:rgb(90, 85, 85);
+}
+
+.button{
+  background-color:black;
+  color:white;
+  font-size:13px;
+  height:35px;
+  width:100px;
+  border:none;
+  border-radius:8px;
+  margin-bottom:120px;
+}
+.button:hover{
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  color:black;
+}
+.other-logos{
+  display:grid;
+  grid-template-columns: 80px 60px 60px 40px;
+  column-gap:40px;
+  width:70px;
+}
+.databiz{
+  width:80px;
+}
+.audiophile{
+  width:50px;
+}
+.meet{
+  width:60px;
+}
+.maker{
+  width:70px;
+}
+.left-division{
+  margin-right:0px;
+  width:450px;
+}
+.left-image{
+ width:100%;
+}
+body .blurred{
+  transition:filter 0.3s ease;
+}
+.blurred{
+  filter: blur(px);
+}
