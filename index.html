@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<meta lang="en">
+<html>
+  <title>Intro section drop down menu</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="right-section">
+        <nav class="nav-bar">
+          <div>
+            <img class="logo" src="images/logo challenge.svg">
+          </div>
+          <ul class="main-list"> 
+            <li class="dropdownclass">
+              Features 
+              <button class="dropdownBtn">
+              <img class="dropdown-icon" src="images/icon-arrow-down challenge.svg">
+            <ul class="dropdown-menu1 dropdown">
+              <li class="list1"><img src="images/icon-todo challenge.svg">Todo List</li><br>
+              <li class="list2"><img src="images/icon-calendar challenge.svg">Calendar</li><br>
+              <li class="list3"><img src="images/icon-reminders challenge.svg">&nbsp; Reminders</li><br>
+              <li class="list4"><img src="images/icon-planning challenge.svg">Planning</li>
+            </ul>
+            </button>
+            </li>
+          <li class="dropdownclass">
+            Company 
+            <button class="dropdownBtn">
+            <img class="dropdown-icon" src="images/icon-arrow-down challenge.svg">
+            <!--dropdown list in the li list-->
+              <ul class="dropdown-menu2 menu2 dropdown">
+                <li>History</li><br>
+                <li>Our Team</li><br>
+                <li>Blog</li>
+              </ul>
+            </button>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+          </ul>
+       </nav>
+       </div>
+        <div class="left-section"> 
+            <a href="">Login</a>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <button class="register-button">Register</button>
+        </div>
+
+        <div>
+          <img class="snap-mobile" src="images/logo challenge.svg">
+        </div>
+
+
+   <div class="dropdown-mobile">
+    
+      <img class="menu-icon" src="images/icon-menu challenge.svg" alt="harmburger-menu">
+  
+
+
+    <ul class="mobile-view-dropdown">
+      <div>
+      <img class="cross-mobile" src="images/icon-close-menu challenge.svg" alt="cross-mobile-view">
+      </div>
+      <div>
+      <li class="dropdownclass">
+        Features 
+        <button class="dropdownBtn dropdownbtn-mobile">
+        <img class="dropdown-icon" src="images/icon-arrow-down challenge.svg">
+     </button>
+     </li>
+     <ul class="dropdown-menu1-mobile">
+      <li class="list1"><img src="images/icon-todo challenge.svg">Todo List</li><br>
+      <li class="list2"><img src="images/icon-calendar challenge.svg">Calendar</li><br>
+      <li class="list3"><img src="images/icon-reminders challenge.svg">&nbsp; Reminders</li><br>
+      <li class="list4"><img src="images/icon-planning challenge.svg">Planning</li>
+    </ul>
+     </div>
+     <div class="">
+     <li class="dropdownclass">
+      Company 
+      <button class="dropdownBtn dropdownbtn-mobile">
+      <img class="dropdown-icon" src="images/icon-arrow-down challenge.svg">
+      </button>
+      <ul class="dropdown-menu2-mobile">
+        <li>History</li><br>
+        <li>Our Team</li><br>
+        <li>Blog</li>
+      </ul>
+      </li>
+      </div>
+      <li>Careers</li>
+      <li>About</li>
+      <li><a href="">Login</a></li>
+      <li><button class="register-button">Register</button></li>
+    </ul>  
+    <!--I'm not sure why the buttons are not responding anymore, they were responding before now-->
+  </div>
+
+ <!--end of the header-->
+</header>
+
+<!--begining of the body-->
+
+  <main class="main-grid">
+
+    <div class="mobile-division">
+      <img src="./images/image-hero-mobile challenge.png" alt="image-hero-mobile">
+    </div>
+     <div class="right-division">
+
+          <div class="head-word">
+          <h1>Make remote work</h1>
+          </div>
+
+          <div>
+          <p>
+            Get your team in sync, no matter your location.
+            Streamline processes, create team rituals, and watch productivity soar. 
+          </p>
+          </div>
+        
+      <div>
+        <button class="button">Learn more</button>
+      </div>
+      
+        <div class="other-logos">
+        <img class="databiz" src="images/client-databiz challenge.svg">
+        <img class="audiophile" src="images/client-audiophile challenge.svg">
+        <img class="meet" src="images/client-meet challenge.svg">
+        <img class="maker" src="images/client-maker challenge.svg">
+        </div>
+
+     </div>
+        
+      <div class="left-division">
+        <img class="left-image" src="images/image-hero-desktop challenge.png" alt="image-hero-desktop">
+      </div>
+    </main>
+
+    <script src="Script/frontendmentor.js"></script>
+  </body>
+</html>
